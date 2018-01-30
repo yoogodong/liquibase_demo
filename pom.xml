@@ -22,7 +22,8 @@
                 <version>3.5.3</version>
                 <configuration>
                     <propertyFile>src/main/resources/liquibase/liquibase.properties</propertyFile>
-                    <changeLogFile>src/main/resources/liquibase/sample.xml</changeLogFile>
+                    <changeLogFile>liquibase/sample.xml</changeLogFile>
+                    <!--<changeLogFile>src/main/resources/liquibase/sample.xml</changeLogFile>-->
                 </configuration>
                 <dependencies>
                     <dependency>
